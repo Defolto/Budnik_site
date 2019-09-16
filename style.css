@@ -1,0 +1,264 @@
+.section{
+    font-size: 40px;
+    margin-top: 40px;
+    padding-bottom: 10px;  
+    border-bottom: 2px solid gray;
+    position: relative;
+    margin-bottom: 25px; 
+}
+.inSection{
+    height: 6px;
+    width: 20%;
+    position: absolute;
+    bottom: -4px;
+    background-color: #d1b36c;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logoText{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+.logoText1{
+    font-size: 20px;
+}
+.navbar-text > p{
+    margin: 0px;
+    font-size: 22px;
+    color: black; 
+}
+.padd{
+    padding: 10px 120px !important;
+}
+.backCall{
+    background-color: #d1b36c;
+    color: black;
+    margin-top: 10px; 
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    animation: pulse 1s infinite;
+    cursor: pointer;
+    border-radius: 30px;
+    display: inline-block;
+}
+.number{
+    font-size: 20px;
+    font-weight: 600;
+}
+@keyframes pulse{
+    0% {
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+.fon{
+    background: url(img/fon.jpg);
+    background-size: cover;
+    background-position-x: left;
+    height: 700px;  
+}
+.fonBlock{
+    position: relative;
+    height: 700px;
+}
+.marg{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-size: 40px;
+}
+.request{
+    background-color: #d1b36c;
+    padding: 10px 30px; 
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid rgb(175, 175, 175);
+    border-radius: 30px;
+    font-size: 25px;
+    display: inline-block;
+    /* box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1); */
+}
+.request:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+}
+.inBlock{
+    background-color: rgba(0, 0, 0, 0.601);
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: relative;
+}
+.inBlock > p{
+    font-size: 30px;
+}
+.inBlock:hover{
+    background-color: rgba(248, 248, 248, 0.336);
+    box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.75);
+}
+.inBlock:hover > .constultation{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+
+}
+.inBlock:hover > p{
+    color: black;
+}
+.block{
+    background: url('img/home.jpg');
+    background-size: cover;
+    height: 250px;
+}
+.constultation{
+    border: 2px solid #C9B775;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.827);
+    color: black;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    font-size: 20px;
+}
+.constultation > img{
+    margin-left: 10px; 
+}
+.name{
+    border: 1px solid black;
+}
+.nameAbout{
+    font-size: 40px;
+    color: #d1b36c;
+    font-weight: 600;
+}
+blockquote{
+    font-size: 20px;
+    color: black;
+}
+.stat{
+    border: 1px solid black;
+    height: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 20px;
+}
+.statNumber{
+    font-weight: 700;
+}
+.forma{
+    background: url('img/fon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;  
+}
+.FirstForma{
+    margin: 25px 0px;
+    width: 80%;
+    padding: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: text;
+    border-bottom: 2px solid #d1b36c;
+    color: aliceblue;
+    outline: none;
+    transition: .7s;
+}
+.FirstForma:active,
+.FirstForma:hover,
+.FirstForma:focus{
+    outline: none;
+    border-bottom: 2px solid #e7d6ae;
+}
+.positIn{
+    margin: auto
+}
+.map{
+    position: relative;
+}
+.textMap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #241b06bb;
+}
+.textMapIn{
+    margin: auto;
+    color: white;
+}
+.showMap{
+    display: inline-block;
+    padding: 15px 50px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.577);
+    border: 1px solid #d1b36c;
+    font-size: 20px;
+}
+.principles:nth-child(2){
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.principles{
+    padding: 20px;
+    transition: .5s;
+}
+.ground{
+    background-color: #d1b36c60;
+}
+
+.row0{
+    border-top: 2px solid black;
+}
+.row1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.principlesTitle{
+    font-size: 35px;
+    font-weight: 600;
+}
+.footerFon{
+    background: url('img/footerFon.jpg');
+    background-position-x: left;
+    background-size: cover;   
+}
+.footerPole{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #d1b36c;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.requestFooter{
+    background-color: #d1b36c;
+    border: black;
+    text-align: center;
+    padding: 15px 30px;
+    margin: auto;
+}
+.textMapIn p{
+    font-size: 30px;
+}
